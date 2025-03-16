@@ -1,8 +1,8 @@
 body {
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
     margin: 0;
     padding: 0;
-    background-color: #0a192f;
+    background-color: #545144;
     color: #ccd6f6;
     overflow-x: hidden;
   }
@@ -16,17 +16,18 @@ body {
   }
   /* Header with Animated Name */
   header {
-    background: #112240;
-    padding: 150px 0;
+    background: #1b4897;
+    padding: 4px 0;
     text-align: center;
     position: relative;
     overflow: hidden;
   }
   
   header h1 {
+    
     font-size: 4.5rem;
     margin: 0;
-    color: #64ffda;
+    color: #000000;
     animation: float 3s ease-in-out infinite, glow 2s ease-in-out infinite alternate;
   }
   
@@ -43,6 +44,7 @@ body {
     font-size: 1.8rem;
     color: white
     margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
   }
   
   /* Container */
@@ -63,7 +65,7 @@ body {
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    border: 5px solid #64ffda;
+    border: 5px solid #3034a1;
     transform-style: preserve-3d;
     animation: rotate3D 8s infinite linear;
   }
@@ -80,11 +82,12 @@ body {
   /* About Section */
   .about {
     margin: 100px 0;
+    background-color: w;
   }
   
   .about h2 {
     font-size: 2.8rem;
-    color: #64ffda;
+    color: #000000;
     margin-bottom: 20px;
     animation: slideIn 1.5s ease-out;
   }
@@ -101,6 +104,7 @@ body {
   }
   
   .about p {
+    font-family: 'Courier New', Courier, monospace;
     font-size: 1.3rem;
     line-height: 1.8;
     color:white
@@ -113,17 +117,19 @@ body {
   
   .skills h2 {
     font-size: 2.8rem;
-    color: #64ffda;
+    color: #0d0e0e;
     margin-bottom: 20px;
     animation: slideIn 1.5s ease-out;
   }
   
   .skills ul {
+    font-family: 'Courier New', Courier, monospace;
     list-style: none;
     padding: 0;
   }
   
   .skills ul li {
+    font-family: 'Courier New', Courier, monospace;
     font-size: 1.3rem;
     margin: 20px 0;
     color: white
@@ -131,7 +137,7 @@ body {
   
   .skills ul li::before {
     content: "▹";
-    color: #64ffda;
+    color: #455d57;
     margin-right: 10px;
   }
   
@@ -142,7 +148,7 @@ body {
   
   .proficiency h2 {
     font-size: 2.8rem;
-    color: #64ffda;
+    color: #000000;
     margin-bottom: 20px;
     animation: slideIn 1.5s ease-out;
   }
@@ -155,7 +161,7 @@ body {
   }
   
   .proficiency .bar div {
-    background: #64ffda;
+    background: #4304d5;
     height: 10px;
     border-radius: 10px;
   }
@@ -167,7 +173,7 @@ body {
   
   .software h2 {
     font-size: 2.8rem;
-    color: #64ffda;
+    color: #000000;
     margin-bottom: 20px;
     animation: slideIn 1.5s ease-out;
   }
@@ -185,7 +191,7 @@ body {
   
   .software ul li::before {
     content: "▹";
-    color: #64ffda;
+    color: #000000;
     margin-right: 10px;
   }
   
@@ -196,7 +202,7 @@ body {
   
   .contact h2 {
     font-size: 2.8rem;
-    color: #64ffda;
+    color: #000000;
     margin-bottom: 20px;
     animation: slideIn 1.5s ease-out;
   }
@@ -213,7 +219,7 @@ body {
   }
   
   .contact ul li a {
-    color: blue
+    color: rgb(222, 222, 237)
     text-decoration: none;
   }
   
@@ -228,7 +234,7 @@ body {
   
   .social-media h2 {
     font-size: 2.8rem;
-    color: #64ffda;
+    color: #060707;
     margin-bottom: 20px;
     animation: slideIn 1.5s ease-out;
   }
@@ -242,6 +248,7 @@ body {
   
   .social-media ul li {
     margin: 0 20px;
+    font-family: 'Courier New', Courier, monospace;
   }
   
   .social-media ul li a {
@@ -250,7 +257,7 @@ body {
   }
   
   .social-media ul li a:hover {
-    color: #8892b0;
+    color:blue
   }
   
   /* WhatsApp Chat Button */
@@ -274,7 +281,8 @@ body {
   
   /* Footer */
   footer {
-    background: #112240;
+    background-color: white;
+    color: black;
     padding: 20px 0;
     text-align: center;
     margin-top: 100px;
@@ -283,5 +291,8 @@ body {
   footer p {
     margin: 0;
     font-size: 1rem;
-    color: #8892b0;
+    color: black
+  }
+  .contact a {
+    color: white;
   }
